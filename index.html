@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+
+<body>
+
+
+    <div class="nevbar">
+        <header>Bhawani's Weather App</header>
+    </div>
+
+    <div class="container-tables">
+
+        <div class="city-container">
+            <button class="btn btn2" id="get-weather" onclick="information()">Get Weather</button>
+            <table class="city-names">
+                <tr>
+                    <th>City</th>
+                </tr>
+                <tr>
+                    <td onclick="setLondon()" id="london" >London</td>
+                </tr>
+                <tr>
+                    <td onclick="setNewYork()" id="nyc">New York</td>
+                </tr>
+                <tr>
+                    <td onclick="setLosAngeles()" id="la">Los Angeles</td>
+                </tr>
+                <tr>
+                    <td onclick="setLasVegas()" id="vegas">Las Vegas</td>
+                </tr>
+
+
+            </table>
+        </div>
+
+        <div class="data-container">
+            <div class="inputs">
+                <input type="text" class="txt1" name="city" id="city-name">
+                <button class="btn btn3" onclick="information()">Search</button>
+            </div>
+            <div class="table" id='pawn'>
+                <table id="weather-table">
+                    <tr>
+                        <th style="width: 10rem;">City Name</th>
+                        <th style="width: 10rem;">Description</th>
+                        <th>Temprature (&#8451)</th>
+                        <th>pressure (hPa)</th>
+                        <th>data age (hrs)</th>
+                        <th style="width: 6.9rem;">Action</th>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
