@@ -143,22 +143,22 @@ const getWeather = document.getElementById('get-weather');
 
 function setLondon() {
     getWeather.value = 'London';
-    london.classList.toggle('heighlight')
+    london.classList.add('heighlight')
 }
 
 function setNewYork() {
     getWeather.value = 'New York';
-    nyc.classList.toggle('heighlight')
+    nyc.classList.add('heighlight')
 }
 
 function setLosAngeles() {
     getWeather.value = 'Los Angeles';
-    la.classList.toggle('heighlight')
+    la.classList.add('heighlight')
 }
 
 function setLasVegas() {
     getWeather.value = 'Las Vegas';
-    vegas.classList.toggle('heighlight')
+    vegas.classList.add('heighlight')
 }
 
 
