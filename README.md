@@ -1,6 +1,6 @@
 ## Weather-App
 
-### Hosted Link: https://melodic-syrniki-b04f6b.netlify.app/
+### Hosted Link: https://fakeweather.netlify.app/
 
 ### Please Note that, If the funcnality is not working please cheak console there will be appropriate responce/reason for that.
 
